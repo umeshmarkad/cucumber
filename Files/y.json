@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-10-09T12:04:42.746Z",
+        "start_timestamp": "2021-10-12T11:50:52.119Z",
         "line": 12,
         "name": "Test Multiple Data",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6312861400,
+              "duration": 25360278000,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 10580675500,
+              "duration": 13903032200,
               "status": "passed"
             },
             "line": 5,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 84008300,
+              "duration": 72004300,
               "status": "passed"
             },
             "line": 6,
@@ -59,8 +59,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat java.base/java.io.File.\u003cinit\u003e(File.java:278)\r\n\tat StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:43)\r\n\tat ✽.Take screenshot and close App(file:///C:/Users/User/eclipse-workspace/cucumber/Features/Datadriven.feature:7)\r\n",
-              "duration": 358027500,
+              "error_message": "java.lang.NullPointerException\r\n\tat java.base/java.io.File.\u003cinit\u003e(File.java:278)\r\n\tat StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:44)\r\n\tat ✽.Take screenshot and close App(file:///C:/Users/User/eclipse-workspace/cucumber/Features/Datadriven.feature:7)\r\n",
+              "duration": 341024300,
               "status": "failed"
             },
             "line": 7,
@@ -73,7 +73,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-09T12:05:00.286Z",
+        "start_timestamp": "2021-10-12T11:51:32.164Z",
         "line": 13,
         "name": "Test Multiple Data",
         "description": "",
@@ -83,7 +83,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5552398500,
+              "duration": 6406465500,
               "status": "passed"
             },
             "line": 4,
@@ -95,7 +95,7 @@
           },
           {
             "result": {
-              "duration": 12829163200,
+              "duration": 11352915200,
               "status": "passed"
             },
             "line": 5,
@@ -117,7 +117,7 @@
           },
           {
             "result": {
-              "duration": 68005700,
+              "duration": 29000600,
               "status": "passed"
             },
             "line": 6,
@@ -129,8 +129,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat java.base/java.io.File.\u003cinit\u003e(File.java:278)\r\n\tat StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:43)\r\n\tat ✽.Take screenshot and close App(file:///C:/Users/User/eclipse-workspace/cucumber/Features/Datadriven.feature:7)\r\n",
-              "duration": 277021200,
+              "error_message": "java.lang.NullPointerException\r\n\tat java.base/java.io.File.\u003cinit\u003e(File.java:278)\r\n\tat StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:44)\r\n\tat ✽.Take screenshot and close App(file:///C:/Users/User/eclipse-workspace/cucumber/Features/Datadriven.feature:7)\r\n",
+              "duration": 160010900,
               "status": "failed"
             },
             "line": 7,
@@ -143,7 +143,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-09T12:05:19.043Z",
+        "start_timestamp": "2021-10-12T11:51:50.124Z",
         "line": 14,
         "name": "Test Multiple Data",
         "description": "",
@@ -153,7 +153,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7920821100,
+              "duration": 7689578900,
               "status": "passed"
             },
             "line": 4,
@@ -165,7 +165,7 @@
           },
           {
             "result": {
-              "duration": 11104148700,
+              "duration": 13776103000,
               "status": "passed"
             },
             "line": 5,
@@ -187,7 +187,7 @@
           },
           {
             "result": {
-              "duration": 90005000,
+              "duration": 53000400,
               "status": "passed"
             },
             "line": 6,
@@ -199,8 +199,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat java.base/java.io.File.\u003cinit\u003e(File.java:278)\r\n\tat StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:43)\r\n\tat ✽.Take screenshot and close App(file:///C:/Users/User/eclipse-workspace/cucumber/Features/Datadriven.feature:7)\r\n",
-              "duration": 216015100,
+              "error_message": "java.lang.NullPointerException\r\n\tat java.base/java.io.File.\u003cinit\u003e(File.java:278)\r\n\tat StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:44)\r\n\tat ✽.Take screenshot and close App(file:///C:/Users/User/eclipse-workspace/cucumber/Features/Datadriven.feature:7)\r\n",
+              "duration": 159011600,
               "status": "failed"
             },
             "line": 7,
@@ -213,7 +213,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-09T12:05:38.416Z",
+        "start_timestamp": "2021-10-12T11:52:11.819Z",
         "line": 15,
         "name": "Test Multiple Data",
         "description": "",
@@ -223,7 +223,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8179988800,
+              "duration": 12308922800,
               "status": "passed"
             },
             "line": 4,
@@ -235,8 +235,9 @@
           },
           {
             "result": {
-              "duration": 11020712200,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 30.000\n  (Session info: chrome\u003d94.0.4606.81)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SMART-PC\u0027, ip: \u0027192.168.137.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4211}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 53adaf7611843a8bd8c4ebf9486d3c26\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\r\n\tat StepDefination1.datadriven.user_enter_and(datadriven.java:26)\r\n\tat ✽.user enter \"suraj.salve1996@gmail.com\" and \"Suraj@1996\"(file:///C:/Users/User/eclipse-workspace/cucumber/Features/Datadriven.feature:5)\r\n",
+              "duration": 35257717300,
+              "status": "failed"
             },
             "line": 5,
             "name": "user enter \"suraj.salve1996@gmail.com\" and \"Suraj@1996\"",
@@ -257,8 +258,8 @@
           },
           {
             "result": {
-              "duration": 60002900,
-              "status": "passed"
+              "duration": 998200,
+              "status": "skipped"
             },
             "line": 6,
             "name": "user is on Homepage",
@@ -269,9 +270,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat java.base/java.io.File.\u003cinit\u003e(File.java:278)\r\n\tat StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:43)\r\n\tat ✽.Take screenshot and close App(file:///C:/Users/User/eclipse-workspace/cucumber/Features/Datadriven.feature:7)\r\n",
-              "duration": 215016300,
-              "status": "failed"
+              "duration": 998500,
+              "status": "skipped"
             },
             "line": 7,
             "name": "Take screenshot and close App",
@@ -283,7 +283,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-09T12:05:57.919Z",
+        "start_timestamp": "2021-10-12T11:52:59.401Z",
         "line": 16,
         "name": "Test Multiple Data",
         "description": "",
@@ -293,7 +293,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11244545400,
+              "duration": 17937337200,
               "status": "passed"
             },
             "line": 4,
@@ -305,7 +305,7 @@
           },
           {
             "result": {
-              "duration": 10165679300,
+              "duration": 11303834800,
               "status": "passed"
             },
             "line": 5,
@@ -327,7 +327,7 @@
           },
           {
             "result": {
-              "duration": 60004700,
+              "duration": 32004000,
               "status": "passed"
             },
             "line": 6,
@@ -339,8 +339,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat java.base/java.io.File.\u003cinit\u003e(File.java:278)\r\n\tat StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:43)\r\n\tat ✽.Take screenshot and close App(file:///C:/Users/User/eclipse-workspace/cucumber/Features/Datadriven.feature:7)\r\n",
-              "duration": 1920150900,
+              "error_message": "java.lang.NullPointerException\r\n\tat java.base/java.io.File.\u003cinit\u003e(File.java:278)\r\n\tat StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:44)\r\n\tat ✽.Take screenshot and close App(file:///C:/Users/User/eclipse-workspace/cucumber/Features/Datadriven.feature:7)\r\n",
+              "duration": 167011500,
               "status": "failed"
             },
             "line": 7,
@@ -353,7 +353,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-09T12:06:21.337Z",
+        "start_timestamp": "2021-10-12T11:53:28.847Z",
         "line": 17,
         "name": "Test Multiple Data",
         "description": "",
@@ -363,7 +363,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8746605400,
+              "duration": 10639792600,
               "status": "passed"
             },
             "line": 4,
@@ -375,76 +375,7 @@
           },
           {
             "result": {
-              "duration": 16397545300,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enter \"hanisahu007@live.com\" and \"Ipl2021\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"hanisahu007@live.com\"",
-                  "offset": 11
-                },
-                {
-                  "val": "\"Ipl2021\"",
-                  "offset": 38
-                }
-              ],
-              "location": "StepDefination1.datadriven.user_enter_and(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath\u003d//*[@class\u003d\u0027user-display\u0027]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SMART-PC\u0027, ip: \u0027192.168.0.106\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716.0.2\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat StepDefination1.datadriven.user_is_on_homepage(datadriven.java:35)\r\n\tat ✽.user is on Homepage(file:///C:/Users/User/eclipse-workspace/cucumber/Features/Datadriven.feature:6)\r\n",
-              "duration": 13091800800,
-              "status": "failed"
-            },
-            "line": 6,
-            "name": "user is on Homepage",
-            "match": {
-              "location": "StepDefination1.datadriven.user_is_on_homepage()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 7,
-            "name": "Take screenshot and close App",
-            "match": {
-              "location": "StepDefination1.datadriven.take_screenshot_and_close_app()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-10-09T12:06:59.637Z",
-        "line": 18,
-        "name": "Test Multiple Data",
-        "description": "",
-        "id": "test-free-crm-app;test-multiple-data;;8",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 11202381000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user enter Free CRM url",
-            "match": {
-              "location": "StepDefination1.datadriven.user_enter_free_crm_url()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 10668289200,
+              "duration": 13418988700,
               "status": "passed"
             },
             "line": 5,
@@ -466,7 +397,7 @@
           },
           {
             "result": {
-              "duration": 7045413900,
+              "duration": 60008100,
               "status": "passed"
             },
             "line": 6,
@@ -478,8 +409,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat java.base/java.io.File.\u003cinit\u003e(File.java:278)\r\n\tat StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:43)\r\n\tat ✽.Take screenshot and close App(file:///C:/Users/User/eclipse-workspace/cucumber/Features/Datadriven.feature:7)\r\n",
-              "duration": 486036900,
+              "error_message": "java.lang.NullPointerException\r\n\tat java.base/java.io.File.\u003cinit\u003e(File.java:278)\r\n\tat StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:44)\r\n\tat ✽.Take screenshot and close App(file:///C:/Users/User/eclipse-workspace/cucumber/Features/Datadriven.feature:7)\r\n",
+              "duration": 176011800,
               "status": "failed"
             },
             "line": 7,

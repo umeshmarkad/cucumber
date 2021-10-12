@@ -6,7 +6,7 @@ Scenario Outline: Test Multiple Data                             # Features/Data
   And Take screenshot and close App                              # StepDefination1.datadriven.take_screenshot_and_close_app()
       java.lang.NullPointerException
 	at java.base/java.io.File.<init>(File.java:278)
-	at StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:43)
+	at StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:44)
 	at ✽.Take screenshot and close App(file:///C:/Users/User/eclipse-workspace/cucumber/Features/Datadriven.feature:7)
 
 
@@ -17,7 +17,7 @@ Scenario Outline: Test Multiple Data                         # Features/Datadriv
   And Take screenshot and close App                          # StepDefination1.datadriven.take_screenshot_and_close_app()
       java.lang.NullPointerException
 	at java.base/java.io.File.<init>(File.java:278)
-	at StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:43)
+	at StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:44)
 	at ✽.Take screenshot and close App(file:///C:/Users/User/eclipse-workspace/cucumber/Features/Datadriven.feature:7)
 
 
@@ -28,20 +28,38 @@ Scenario Outline: Test Multiple Data                       # Features/Datadriven
   And Take screenshot and close App                        # StepDefination1.datadriven.take_screenshot_and_close_app()
       java.lang.NullPointerException
 	at java.base/java.io.File.<init>(File.java:278)
-	at StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:43)
+	at StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:44)
 	at ✽.Take screenshot and close App(file:///C:/Users/User/eclipse-workspace/cucumber/Features/Datadriven.feature:7)
 
 
 Scenario Outline: Test Multiple Data                           # Features/Datadriven.feature:15
   Given user enter Free CRM url                                # StepDefination1.datadriven.user_enter_free_crm_url()
   When user enter "suraj.salve1996@gmail.com" and "Suraj@1996" # StepDefination1.datadriven.user_enter_and(java.lang.String,java.lang.String)
+      org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=94.0.4606.81)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SMART-PC', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4211}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 53adaf7611843a8bd8c4ebf9486d3c26
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at StepDefination1.datadriven.user_enter_and(datadriven.java:26)
+	at ✽.user enter "suraj.salve1996@gmail.com" and "Suraj@1996"(file:///C:/Users/User/eclipse-workspace/cucumber/Features/Datadriven.feature:5)
+
   Then user is on Homepage                                     # StepDefination1.datadriven.user_is_on_homepage()
   And Take screenshot and close App                            # StepDefination1.datadriven.take_screenshot_and_close_app()
-      java.lang.NullPointerException
-	at java.base/java.io.File.<init>(File.java:278)
-	at StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:43)
-	at ✽.Take screenshot and close App(file:///C:/Users/User/eclipse-workspace/cucumber/Features/Datadriven.feature:7)
-
 
 Scenario Outline: Test Multiple Data                  # Features/Datadriven.feature:16
   Given user enter Free CRM url                       # StepDefination1.datadriven.user_enter_free_crm_url()
@@ -50,35 +68,17 @@ Scenario Outline: Test Multiple Data                  # Features/Datadriven.feat
   And Take screenshot and close App                   # StepDefination1.datadriven.take_screenshot_and_close_app()
       java.lang.NullPointerException
 	at java.base/java.io.File.<init>(File.java:278)
-	at StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:43)
+	at StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:44)
 	at ✽.Take screenshot and close App(file:///C:/Users/User/eclipse-workspace/cucumber/Features/Datadriven.feature:7)
 
 
-Scenario Outline: Test Multiple Data                   # Features/Datadriven.feature:17
-  Given user enter Free CRM url                        # StepDefination1.datadriven.user_enter_free_crm_url()
-  When user enter "hanisahu007@live.com" and "Ipl2021" # StepDefination1.datadriven.user_enter_and(java.lang.String,java.lang.String)
-  Then user is on Homepage                             # StepDefination1.datadriven.user_is_on_homepage()
-      org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//*[@class='user-display']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SMART-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at StepDefination1.datadriven.user_is_on_homepage(datadriven.java:35)
-	at ✽.user is on Homepage(file:///C:/Users/User/eclipse-workspace/cucumber/Features/Datadriven.feature:6)
-
-  And Take screenshot and close App                    # StepDefination1.datadriven.take_screenshot_and_close_app()
-
-Scenario Outline: Test Multiple Data                     # Features/Datadriven.feature:18
+Scenario Outline: Test Multiple Data                     # Features/Datadriven.feature:17
   Given user enter Free CRM url                          # StepDefination1.datadriven.user_enter_free_crm_url()
   When user enter "Kukdesmit1@gmail.com" and "Sum#78648" # StepDefination1.datadriven.user_enter_and(java.lang.String,java.lang.String)
   Then user is on Homepage                               # StepDefination1.datadriven.user_is_on_homepage()
   And Take screenshot and close App                      # StepDefination1.datadriven.take_screenshot_and_close_app()
       java.lang.NullPointerException
 	at java.base/java.io.File.<init>(File.java:278)
-	at StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:43)
+	at StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:44)
 	at ✽.Take screenshot and close App(file:///C:/Users/User/eclipse-workspace/cucumber/Features/Datadriven.feature:7)
 

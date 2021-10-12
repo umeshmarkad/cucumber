@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="7" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="166.738">
-    <testcase classname="Test Free CRM App" name="Test Multiple Data" time="17.489">
+<testsuite errors="0" failures="6" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="181.715">
+    <testcase classname="Test Free CRM App" name="Test Multiple Data" time="39.943">
         <failure message="" type="java.lang.NullPointerException"><![CDATA[Given user enter Free CRM url...............................................passed
 When user enter "shashankmeka023@gmail.com" and "Shashank@123"..............passed
 Then user is on Homepage....................................................passed
@@ -9,11 +9,11 @@ And Take screenshot and close App...........................................fail
 StackTrace:
 java.lang.NullPointerException
 	at java.base/java.io.File.<init>(File.java:278)
-	at StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:43)
+	at StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:44)
 	at ✽.Take screenshot and close App(file:///C:/Users/User/eclipse-workspace/cucumber/Features/Datadriven.feature:7)
 ]]></failure>
     </testcase>
-    <testcase classname="Test Free CRM App" name="Test Multiple Data 2" time="18.735">
+    <testcase classname="Test Free CRM App" name="Test Multiple Data 2" time="17.954">
         <failure message="" type="java.lang.NullPointerException"><![CDATA[Given user enter Free CRM url...............................................passed
 When user enter "darade.kp143@gmail.com" and "Krushna@123"..................passed
 Then user is on Homepage....................................................passed
@@ -22,11 +22,11 @@ And Take screenshot and close App...........................................fail
 StackTrace:
 java.lang.NullPointerException
 	at java.base/java.io.File.<init>(File.java:278)
-	at StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:43)
+	at StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:44)
 	at ✽.Take screenshot and close App(file:///C:/Users/User/eclipse-workspace/cucumber/Features/Datadriven.feature:7)
 ]]></failure>
     </testcase>
-    <testcase classname="Test Free CRM App" name="Test Multiple Data 3" time="19.342">
+    <testcase classname="Test Free CRM App" name="Test Multiple Data 3" time="21.684">
         <failure message="" type="java.lang.NullPointerException"><![CDATA[Given user enter Free CRM url...............................................passed
 When user enter "sayli.panhale@gmail.com" and "Menu88**"....................passed
 Then user is on Homepage....................................................passed
@@ -35,24 +35,42 @@ And Take screenshot and close App...........................................fail
 StackTrace:
 java.lang.NullPointerException
 	at java.base/java.io.File.<init>(File.java:278)
-	at StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:43)
+	at StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:44)
 	at ✽.Take screenshot and close App(file:///C:/Users/User/eclipse-workspace/cucumber/Features/Datadriven.feature:7)
 ]]></failure>
     </testcase>
-    <testcase classname="Test Free CRM App" name="Test Multiple Data 4" time="19.487">
-        <failure message="" type="java.lang.NullPointerException"><![CDATA[Given user enter Free CRM url...............................................passed
-When user enter "suraj.salve1996@gmail.com" and "Suraj@1996"................passed
-Then user is on Homepage....................................................passed
-And Take screenshot and close App...........................................failed
+    <testcase classname="Test Free CRM App" name="Test Multiple Data 4" time="47.575">
+        <failure message="timeout: Timed out receiving message from renderer: 30.000&#10;  (Session info: chrome=94.0.4606.81)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'SMART-PC', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4211}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 53adaf7611843a8bd8c4ebf9486d3c26" type="org.openqa.selenium.TimeoutException"><![CDATA[Given user enter Free CRM url...............................................passed
+When user enter "suraj.salve1996@gmail.com" and "Suraj@1996"................failed
+Then user is on Homepage....................................................skipped
+And Take screenshot and close App...........................................skipped
 
 StackTrace:
-java.lang.NullPointerException
-	at java.base/java.io.File.<init>(File.java:278)
-	at StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:43)
-	at ✽.Take screenshot and close App(file:///C:/Users/User/eclipse-workspace/cucumber/Features/Datadriven.feature:7)
+org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=94.0.4606.81)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SMART-PC', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4211}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 53adaf7611843a8bd8c4ebf9486d3c26
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at StepDefination1.datadriven.user_enter_and(datadriven.java:26)
+	at ✽.user enter "suraj.salve1996@gmail.com" and "Suraj@1996"(file:///C:/Users/User/eclipse-workspace/cucumber/Features/Datadriven.feature:5)
 ]]></failure>
     </testcase>
-    <testcase classname="Test Free CRM App" name="Test Multiple Data 5" time="23.397">
+    <testcase classname="Test Free CRM App" name="Test Multiple Data 5" time="29.442">
         <failure message="" type="java.lang.NullPointerException"><![CDATA[Given user enter Free CRM url...............................................passed
 When user enter "gshnde95@gmail.com" and "Gaurav59".........................passed
 Then user is on Homepage....................................................passed
@@ -61,31 +79,11 @@ And Take screenshot and close App...........................................fail
 StackTrace:
 java.lang.NullPointerException
 	at java.base/java.io.File.<init>(File.java:278)
-	at StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:43)
+	at StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:44)
 	at ✽.Take screenshot and close App(file:///C:/Users/User/eclipse-workspace/cucumber/Features/Datadriven.feature:7)
 ]]></failure>
     </testcase>
-    <testcase classname="Test Free CRM App" name="Test Multiple Data 6" time="38.291">
-        <failure message="Cannot locate an element using xpath=//*[@class='user-display']&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'SMART-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given user enter Free CRM url...............................................passed
-When user enter "hanisahu007@live.com" and "Ipl2021"........................passed
-Then user is on Homepage....................................................failed
-And Take screenshot and close App...........................................skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//*[@class='user-display']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SMART-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at StepDefination1.datadriven.user_is_on_homepage(datadriven.java:35)
-	at ✽.user is on Homepage(file:///C:/Users/User/eclipse-workspace/cucumber/Features/Datadriven.feature:6)
-]]></failure>
-    </testcase>
-    <testcase classname="Test Free CRM App" name="Test Multiple Data 7" time="29.409">
+    <testcase classname="Test Free CRM App" name="Test Multiple Data 6" time="24.297">
         <failure message="" type="java.lang.NullPointerException"><![CDATA[Given user enter Free CRM url...............................................passed
 When user enter "Kukdesmit1@gmail.com" and "Sum#78648"......................passed
 Then user is on Homepage....................................................passed
@@ -94,7 +92,7 @@ And Take screenshot and close App...........................................fail
 StackTrace:
 java.lang.NullPointerException
 	at java.base/java.io.File.<init>(File.java:278)
-	at StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:43)
+	at StepDefination1.datadriven.take_screenshot_and_close_app(datadriven.java:44)
 	at ✽.Take screenshot and close App(file:///C:/Users/User/eclipse-workspace/cucumber/Features/Datadriven.feature:7)
 ]]></failure>
     </testcase>
